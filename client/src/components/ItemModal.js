@@ -22,7 +22,8 @@ class ItemModal extends Component {
   };
 
   static propTypes = {
-    isAuthenticated: PropTypes.bool
+    isAuthenticated: PropTypes.bool,
+    error: PropTypes.object.isRequired
   };
 
   toggle = () => {
