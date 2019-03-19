@@ -1,6 +1,6 @@
-# <Dev Idea>
+# Dev Idea
 
-> Shopping list app built with the MERN stack along with Redux for state management, Reactstrap and react-transition-group.
+> Dev idea app built with the MERN stack along with Redux for state management, Reactstrap and react-transition-group.
 
 ## Quick Start
 
