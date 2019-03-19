@@ -13,7 +13,6 @@ import {
 import { connect } from 'react-redux';
 import { addItem } from '../actions/itemActions';
 import PropTypes from 'prop-types';
-import { clearErrors } from '../../actions/errorActions';
 
 class ItemModal extends Component {
   state = {
@@ -112,5 +111,5 @@ const mapStateToProps = state => ({
 
 export default connect(
   mapStateToProps,
-  { addItem, clearErrors }
+  { addItem}
 )(ItemModal);
