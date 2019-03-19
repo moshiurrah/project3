@@ -7,7 +7,8 @@ import {
   Form,
   FormGroup,
   Label,
-  Input
+  Input,
+  Alert
 } from 'reactstrap';
 import { connect } from 'react-redux';
 import { addItem } from '../actions/itemActions';
@@ -67,6 +68,10 @@ class ItemModal extends Component {
         <Modal isOpen={this.state.modal} toggle={this.toggle}>
           <ModalHeader toggle={this.toggle}>Add a new dev idea</ModalHeader>
           <ModalBody>
+            
+            {this.state.msg ? (
+              <Alert color='danger'>{this.state.msg}</Alert>
+             ) : null}
             <Form onSubmit={this.onSubmit}>
               <FormGroup>
                 <Label for='item'>Item</Label>
