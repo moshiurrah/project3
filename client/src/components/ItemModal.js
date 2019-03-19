@@ -77,7 +77,7 @@ class ItemModal extends Component {
                   placeholder='Add shopping item'
                   onChange={this.onChange}
                 />
-                <Label for='item'>Item</Label>
+                <Label for='description'>Description</Label>
                 <Input
                   type='text'
                   name='description'
