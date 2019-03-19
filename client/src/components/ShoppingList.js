@@ -39,8 +39,13 @@ class ShoppingList extends Component {
                       &times;
                     </Button>
                   ) : null}
+                  <ListGroupItemHeading>  
                   {name}
+                  </ListGroupItemHeading>
+                  <ListGroupItemText>
                   {description}
+                  </ListGroupItemText>
+                
                 </ListGroupItem>
               </CSSTransition>
             ))}
