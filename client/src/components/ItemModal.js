@@ -18,7 +18,8 @@ class ItemModal extends Component {
   state = {
     modal: false,
     name: '',
-    description: ''
+    description: '',
+    msg: null
   };
 
   static propTypes = {
