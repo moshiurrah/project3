@@ -41,4 +41,4 @@ There is a Heroku post build script so that you do not have to compile your Reac
 
 ### License
 
-This project is licensed under the MIT License
+This project is licensed under the  ISC License
