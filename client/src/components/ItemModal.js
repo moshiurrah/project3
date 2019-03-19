@@ -58,14 +58,14 @@ class ItemModal extends Component {
             style={{ marginBottom: '2rem' }}
             onClick={this.toggle}
           >
-            Add Item
+            Add Idea
           </Button>
         ) : (
-          <h4 className='mb-3 ml-4'>Please log in to manage items</h4>
+          <h4 className='mb-3 ml-4'>Please log in to manage idea</h4>
         )}
 
         <Modal isOpen={this.state.modal} toggle={this.toggle}>
-          <ModalHeader toggle={this.toggle}>Add To Shopping List</ModalHeader>
+          <ModalHeader toggle={this.toggle}>Add a new dev idea</ModalHeader>
           <ModalBody>
             <Form onSubmit={this.onSubmit}>
               <FormGroup>
@@ -74,7 +74,7 @@ class ItemModal extends Component {
                   type='text'
                   name='name'
                   id='item'
-                  placeholder='Add shopping item'
+                  placeholder='Add idea titel'
                   onChange={this.onChange}
                 />
                 <Label for='description'>Description</Label>
@@ -82,7 +82,7 @@ class ItemModal extends Component {
                   type='textarea'
                   name='description'
                   id='description'
-                  placeholder='Add description'
+                  placeholder='Add a brief description'
                   onChange={this.onChange}
                 />
                 <Button color='dark' style={{ marginTop: '2rem' }} block>
