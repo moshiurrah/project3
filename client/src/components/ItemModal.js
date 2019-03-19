@@ -79,7 +79,7 @@ class ItemModal extends Component {
                 />
                 <Label for='description'>Description</Label>
                 <Input
-                  type='text'
+                  type='textarea'
                   name='description'
                   id='description'
                   placeholder='Add description'
