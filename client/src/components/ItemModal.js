@@ -112,5 +112,5 @@ const mapStateToProps = state => ({
 
 export default connect(
   mapStateToProps,
-  { addItem,clearErrors }
+  { addItem, clearErrors }
 )(ItemModal);
