@@ -71,7 +71,7 @@ class ItemModal extends Component {
            )}
 
         <Modal isOpen={this.state.modal} toggle={this.toggle}>
-          <ModalHeader toggle={this.toggle}>{Add Rent/Sell an Items}</ModalHeader>
+          <ModalHeader toggle={this.toggle}>'Add Rent/Sell an Items'</ModalHeader>
           <ModalBody>                   
             <Form onSubmit={this.onSubmit}>
               <FormGroup>
