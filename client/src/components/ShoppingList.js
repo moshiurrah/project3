@@ -24,9 +24,7 @@ class ShoppingList extends Component {
     const { items } = this.props.item;
     return (
       <Container>
-        <p>
         <ListGroup>
-        
           <TransitionGroup className='shopping-list'>
             {items.map(({ _id, name, description }) => (
               <CSSTransition key={_id} timeout={500} classNames='fade'>
@@ -41,12 +39,12 @@ class ShoppingList extends Component {
                       &times;
                     </Button>
                   ) : null}
-                  <ListGroupItemHeading class="mb-1">  
+                  <ListGroupItemHeading>  
                   {name}
                   </ListGroupItemHeading>
                   <ListGroupItemText>
                   <h6>Description</h6>
-                  <p class="mb-1">{description} </p>
+                  {description}
                   </ListGroupItemText>
                 
                 </ListGroupItem>
@@ -55,7 +53,6 @@ class ShoppingList extends Component {
           </TransitionGroup>
          
         </ListGroup>
-       </p>
        </Container>
     );
   }
