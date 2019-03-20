@@ -40,9 +40,7 @@ class ShoppingList extends Component {
                     </Button>
                   ) : null}
                   <ListGroupItemHeading>  
-                  <div class="w-50">
                   {name}
-                  </div>
                   </ListGroupItemHeading>
                   
                   <ListGroupItemText>
