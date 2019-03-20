@@ -61,7 +61,7 @@ class ItemModal extends Component {
             style={{ marginBottom: '2rem' }}
             onClick={this.toggle}
           >
-            Add an Idea
+            Add an item
           </Button>
         ) : (
           <Media>
