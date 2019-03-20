@@ -14,7 +14,7 @@ import {
 import { connect } from 'react-redux';
 import { addItem } from '../actions/itemActions';
 import PropTypes from 'prop-types';
-
+import Home_image from '../development-skill.png';
 class ItemModal extends Component {
   state = {
     modal: false,
@@ -64,8 +64,8 @@ class ItemModal extends Component {
           </Button>
         ) : (
           <Media>
-          <Media heading>Please log in to manage idea'\n'</Media>
-          <Media object data-src=".../development-skill.png" alt="Dev idea logo" />
+          <Media heading>{`Please log in to manage idea\n`}</Media>
+          <Media object data-src={Home_image} alt="Dev idea logo" />
           </Media>
            )}
 
