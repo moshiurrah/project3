@@ -14,7 +14,7 @@ class ShoppingList extends Component {
   };
 
   componentDidMount() {
-    document.title="Dev Idea";
+    document.title="RentAll";
     this.props.getItems();
   }
 
