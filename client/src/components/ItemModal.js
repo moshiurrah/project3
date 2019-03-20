@@ -63,6 +63,7 @@ class ItemModal extends Component {
           </Button>
         ) : (
           <h4 className='mb-3 ml-4'>Please log in to manage idea</h4>
+          <img src="https://www.creativedrillsergeants.org/wp-content/uploads/2018/04/development-skill.png" class="img-fluid" alt="developerimage">
         )}
 
         <Modal isOpen={this.state.modal} toggle={this.toggle}>
