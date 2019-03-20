@@ -25,7 +25,7 @@ class ShoppingList extends Component {
     flush: PropTypes.bool,
     className: PropTypes.string,
     cssModule: PropTypes.object,
-  };
+  }
 
   render() {
     const { items } = this.props.item;
