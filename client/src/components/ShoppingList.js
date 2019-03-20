@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
 import { Container, Button, ListGroup, ListGroupItem, ListGroupItemHeading, ListGroupItemText } from 'reactstrap';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import { connect } from 'react-redux';
@@ -13,6 +14,7 @@ class ShoppingList extends Component {
   };
 
   componentDidMount() {
+    document.title="Dev Idea";
     this.props.getItems();
   }
 
