@@ -19,6 +19,13 @@ class ShoppingList extends Component {
   onDeleteClick = id => {
     this.props.deleteItem(id);
   };
+ ListGroup.propTypes = {
+    tag: PropTypes.oneOfType([PropTypes.func, PropTypes.string]),
+    // boolean to render list group items edge-to-edge in a parent container
+    flush: PropTypes.bool,
+    className: PropTypes.string,
+    cssModule: PropTypes.object,
+  };
 
   render() {
     const { items } = this.props.item;
