@@ -18,13 +18,11 @@ class ItemModal extends Component {
   state = {
     modal: false,
     name: '',
-    description: '',
-    msg: null
+    description: ''
   };
 
   static propTypes = {
-    isAuthenticated: PropTypes.bool,
-    error: PropTypes.object.isRequired
+    isAuthenticated: PropTypes.bool
   };
 
   toggle = () => {
@@ -106,7 +104,6 @@ class ItemModal extends Component {
 
 const mapStateToProps = state => ({
   item: state.item,
-  error: state.error,
   isAuthenticated: state.auth.isAuthenticated
 });
 
