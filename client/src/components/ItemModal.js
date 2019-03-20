@@ -14,7 +14,7 @@ import {
 import { connect } from 'react-redux';
 import { addItem } from '../actions/itemActions';
 import PropTypes from 'prop-types';
-import Home_image from '../development-skill.png';
+//import Home_image from '../development-skill.png';
 console.log(Home_image);
 class ItemModal extends Component {
   state = {
@@ -66,7 +66,7 @@ class ItemModal extends Component {
         ) : (
           <Media>
           <Media heading>{`Please log in to manage idea\n`}</Media>
-          <Media object data-src={Home_image} alt="Dev idea logo" />
+          <img src={ require('../development-skill.png') } />
           </Media>
            )}
 
