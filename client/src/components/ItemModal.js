@@ -65,13 +65,13 @@ class ItemModal extends Component {
           </Button>
         ) : (
           <Media>
-          <Media heading>{`Please log in to manage idea\n`}</Media>
+          <Media heading>{`Please log in to manage items\n`}</Media>
           <img src={logo} alt="Logo" width="100" height="100" />;
           </Media>
            )}
 
         <Modal isOpen={this.state.modal} toggle={this.toggle}>
-          <ModalHeader toggle={this.toggle}>Add a new dev idea</ModalHeader>
+          <ModalHeader toggle={this.toggle}>Add Rent/Sell an Items</ModalHeader>
           <ModalBody>                   
             <Form onSubmit={this.onSubmit}>
               <FormGroup>
