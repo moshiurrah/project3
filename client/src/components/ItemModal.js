@@ -64,8 +64,8 @@ class ItemModal extends Component {
           </Button>
         ) : (
           <Media>
-          <Media heading>Media heading</Media>
-          <Media object data-src="holder.js/64x64" alt="Generic placeholder image" />
+          <Media heading>Please log in to manage idea</Media>
+          <Media object data-src="https://www.creativedrillsergeants.org/wp-content/uploads/2018/04/development-skill.png" alt="Dev idea logo" />
           </Media>
            )}
 
