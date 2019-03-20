@@ -66,7 +66,7 @@ class ItemModal extends Component {
         ) : (
           <Media>
           <Media heading>{`Please log in to manage idea\n`}</Media>
-          <img src={logo} alt="Logo" />;
+          <img src={logo} alt="Logo" width="100" height="100" />;
           </Media>
            )}
 
