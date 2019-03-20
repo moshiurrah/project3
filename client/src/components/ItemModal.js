@@ -62,7 +62,7 @@ class ItemModal extends Component {
             Add Idea
           </Button>
         ) : (
-          <h4 className='mb-3 ml-4'>Please log in to manage idea</h4>
+          <Media heading>Media heading</Media>
            )}
 
         <Modal isOpen={this.state.modal} toggle={this.toggle}>
