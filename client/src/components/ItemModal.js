@@ -106,7 +106,7 @@ class ItemModal extends Component {
 
 const mapStateToProps = state => ({
   item: state.item,
-  description: state.item.description, 
+  description: state.description, 
   error: state.error
   isAuthenticated: state.auth.isAuthenticated
 });
