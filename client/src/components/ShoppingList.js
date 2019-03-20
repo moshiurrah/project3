@@ -40,11 +40,16 @@ class ShoppingList extends Component {
                     </Button>
                   ) : null}
                   <ListGroupItemHeading>  
+                  <div class="w-100">
                   {name}
+                  </div>
                   </ListGroupItemHeading>
+                  
                   <ListGroupItemText>
-                  <h6>Description</h6>
+                  <h6 >Description</h6>
+                  <div class="w-100">
                   {description}
+                  </div>
                   </ListGroupItemText>
                 
                 </ListGroupItem>
