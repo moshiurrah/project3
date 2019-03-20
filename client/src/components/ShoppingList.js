@@ -24,7 +24,7 @@ class ShoppingList extends Component {
     const { items } = this.props.item;
     return (
       <Container>
-        <Row>
+        <Row xs="6">
         <ListGroup>
         
           <TransitionGroup className='shopping-list'>
@@ -55,7 +55,7 @@ class ShoppingList extends Component {
           </TransitionGroup>
          
         </ListGroup>
-        </Row>
+        </Row xs="6">
       </Container>
     );
   }
