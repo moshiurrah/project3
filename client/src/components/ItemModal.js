@@ -60,10 +60,13 @@ class ItemModal extends Component {
             style={{ marginBottom: '2rem' }}
             onClick={this.toggle}
           >
-            Add Idea
+            Add an Idea
           </Button>
         ) : (
+          <Media>
           <Media heading>Media heading</Media>
+          <Media object data-src="holder.js/64x64" alt="Generic placeholder image" />
+          </Media>
            )}
 
         <Modal isOpen={this.state.modal} toggle={this.toggle}>
@@ -76,7 +79,7 @@ class ItemModal extends Component {
                   type='text'
                   name='name'
                   id='item'
-                  placeholder='Add idea titel'
+                  placeholder='Add idea title'
                   onChange={this.onChange}
                 />
                 <Label for='description'>Description</Label>
