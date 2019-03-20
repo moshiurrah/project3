@@ -25,6 +25,7 @@ class ShoppingList extends Component {
     return (
       <Container>
         <ListGroup>
+        <Row>
           <TransitionGroup className='shopping-list'>
             {items.map(({ _id, name, description }) => (
               <CSSTransition key={_id} timeout={500} classNames='fade'>
@@ -51,6 +52,7 @@ class ShoppingList extends Component {
               </CSSTransition>
             ))}
           </TransitionGroup>
+         </Row>
         </ListGroup>
       </Container>
     );
