@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Row, Col, Button, ListGroup, ListGroupItem, ListGroupItemHeading, ListGroupItemText } from 'reactstrap';
+import { Container, Button, ListGroup, ListGroupItem, ListGroupItemHeading, ListGroupItemText } from 'reactstrap';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import { connect } from 'react-redux';
 import { getItems, deleteItem } from '../actions/itemActions';
@@ -24,8 +24,6 @@ class ShoppingList extends Component {
     const { items } = this.props.item;
     return (
       <Container>
-        <Row>
-        <Col xs="6">
         <ListGroup>
         
           <TransitionGroup className='shopping-list'>
@@ -56,9 +54,7 @@ class ShoppingList extends Component {
           </TransitionGroup>
          
         </ListGroup>
-         </Col>
-        </Row>
-      </Container>
+       </Container>
     );
   }
 }
