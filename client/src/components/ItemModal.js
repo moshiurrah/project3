@@ -67,11 +67,7 @@ class ItemModal extends Component {
 
         <Modal isOpen={this.state.modal} toggle={this.toggle}>
           <ModalHeader toggle={this.toggle}>Add a new dev idea</ModalHeader>
-          <ModalBody>
-            
-            {this.state.msg ? (
-              <Alert color='danger'>{this.state.msg}</Alert>
-             ) : null}
+          <ModalBody>                   
             <Form onSubmit={this.onSubmit}>
               <FormGroup>
                 <Label for='item'>Item</Label>
