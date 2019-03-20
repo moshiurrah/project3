@@ -45,9 +45,7 @@ class ShoppingList extends Component {
                   
                   <ListGroupItemText>
                   <h6 >Description</h6>
-                  <div class="w-100">
                   {description}
-                  </div>
                   </ListGroupItemText>
                 
                 </ListGroupItem>
