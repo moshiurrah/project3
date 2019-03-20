@@ -43,9 +43,9 @@ class ShoppingList extends Component {
                   <ListGroupItemHeading class="mb-1">  
                   {name}
                   </ListGroupItemHeading>
-                  <ListGroupItemText class="mb-1">
+                  <ListGroupItemText>
                   <h6>Description</h6>
-                  {description}
+                  <p class="mb-1">{description} </p>
                   </ListGroupItemText>
                 
                 </ListGroupItem>
