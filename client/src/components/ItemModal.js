@@ -15,6 +15,7 @@ import { connect } from 'react-redux';
 import { addItem } from '../actions/itemActions';
 import PropTypes from 'prop-types';
 import Home_image from '../development-skill.png';
+console.log(Home_image);
 class ItemModal extends Component {
   state = {
     modal: false,
