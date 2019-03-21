@@ -14,7 +14,8 @@ import {
 import { connect } from 'react-redux';
 import { addItem } from '../actions/itemActions';
 import PropTypes from 'prop-types';
-import logo from '../development-skill.png';
+import logo from '../assets/logo.png';
+
 
 class ItemModal extends Component {
   state = {
