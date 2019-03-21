@@ -32,8 +32,9 @@ There is a Heroku post build script so that you do not have to compile your Reac
 ## App Info
 
 ### Author
-
-
+Stephanie Tang
+Ahmed Ahemed
+Mohammad Moshiur Rahman
 
 ### Version
 
