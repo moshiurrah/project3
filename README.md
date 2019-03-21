@@ -1,6 +1,6 @@
-# Dev Idea
+# RentAll
 
-> Dev idea app built with the MERN stack along with Redux for state management, Reactstrap and react-transition-group.
+> Rentall app built with the MERN stack along with Redux for state management, Reactstrap and react-transition-group.
 
 ## Quick Start
 
