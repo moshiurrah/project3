@@ -66,7 +66,7 @@ class ItemModal extends Component {
           </Button>
         ) : (
           <Media>
-          <Media heading>{`Please log in to manage items\n`}</Media>
+          <Media heading>{`Please log in to manage items\n\n`}</Media>
           <img src={logo} alt="Logo" width="100" height="100" />;
           </Media>
            )}
