@@ -83,6 +83,7 @@ class ItemModal extends Component {
                   name='name'
                   id='item'
                   required
+                  minlength="4" maxlength="120"
                   placeholder='Add an item'
                   onChange={this.onChange}
                 />
